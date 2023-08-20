@@ -1,0 +1,8 @@
+CREATE TABLE produto (
+	codigo SERIAL PRIMARY KEY,
+	descricao VARCHAR (100),
+	dataValidade DATE,
+	preco FLOAT,
+	TaxaLucro FLOAT);
+	
+SELECT * FROM produto
